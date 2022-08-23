@@ -146,4 +146,9 @@ header p{
 }         
 
 
+/* :::::::::::::::::::::::::::::::::::: footer section design :::::::::::::::::::::::::::::::: */
+footer p{
+    text-align: center;
+    color: white;
+}
 
