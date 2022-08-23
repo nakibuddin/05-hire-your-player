@@ -11,7 +11,97 @@
     </style>
   </head>
   <body>
-    <h1>Hello</h1>
+    <br><br>
+    <main class="main-container">
+        <div class="players-container">
+            <section class="players">
+                <div class="">
+                    <img src="image/player-1.png" class="card-img-top" alt="...">        
+                    <h1 class="">Mesut Ozil</h1>                                   
+                    <p><span>36 Goals</span> <span>.</span> <span>120 Assist</span></p>
+                    <button class="btn-select">SELECT</button>
+                </div>
+                
+                <div class="">
+                    <img src="image/player-2.png" class="card-img-top" alt="...">        
+                    <h1 class="">Lionel Messi</h1>                                   
+                    <p><span>36 Goals</span> <span>.</span> <span>120 Assist</span></p>
+                    <button class="btn-select">SELECT</button>
+                </div>
+
+                <div class="">
+                    <img src="image/player-3.png" class="card-img-top" alt="...">        
+                    <h1 class="">Cristiano Ronaldo</h1>                                   
+                    <p><span>36 Goals</span> <span>.</span> <span>120 Assist</span></p>
+                    <button class="btn-select">SELECT</button>
+                </div>
+
+                <div class="">
+                    <img src="image/player-4.png" class="card-img-top" alt="...">        
+                    <h1 class="">Neymar Jr.</h1>                                   
+                    <p><span>36 Goals</span> <span>.</span> <span>120 Assist</span></p>
+                    <button class="btn-select">SELECT</button>
+                </div>
+
+                <div class="">
+                    <img src="image/player-5.png" class="card-img-top" alt="...">        
+                    <h1 class="">Mohamed Salah</h1>                                   
+                    <p><span>36 Goals</span> <span>.</span> <span>120 Assist</span></p>
+                    <button class="btn-select">SELECT</button>
+                </div>
+
+                <div class="">
+                    <img src="image/player-6.png" class="card-img-top" alt="...">        
+                    <h1 class="">Di Maria</h1>                                   
+                    <p><span>36 Goals</span> <span>.</span> <span>120 Assist</span></p>
+                    <button class="btn-select">SELECT</button>
+                </div>
+            </section>
+        </div>
+        
+        <section class="side-bar">
+            <div class="players-list">
+                <h1>Selected-V</h1>
+                <ol id="order-list">  
+
+                </ol> 
+            </div>
+            
+            <div class="calculation-box">
+                <h1>Budget</h1>
+                
+                <div class="flex">
+                    <p>Per Player</p>
+                    <input id="player-budget" class="input-style" type="text">
+                </div>
+
+                <button id="btn-calculate">Calculate</button>
+                <div class="flex">
+                    <p>Player Expanses:</p>
+                    <p class="expanses-margin">$ <span id="player-expanses">00</span></p>
+                </div>
+
+                <div class="flex">
+                    <p>Manager</p>
+                    <input id="manager-expanse" class="input-style" type="text">
+                </div>
+
+                <div class="flex">
+                    <p>Coach</p>
+                    <input id="coach-expanse" class="input-style" type="text">
+                </div>
+
+                <button id="btn-calculate-total">Calculate Total</button>
+
+                <div class="flex">
+                    <p>Total:</p>
+                    <p id="total-expanses-color" class="expanses-margin"> $ <span id="total-expanses">00</span> </p>
+                </div>               
+            </div>            
+        </section>
+    </main>
+    
+    
   </body>
 </html>
 
